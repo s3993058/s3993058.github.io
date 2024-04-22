@@ -1,7 +1,7 @@
 .container{
     font-family: sans-serif;
     display: grid;
-    grid-template-columns: 16rem 1fr 16rem;
+    grid-template-columns: 25rem 1fr 25rem;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
         "header header header"

@@ -3,17 +3,3 @@
     grid-template-columns: 32rem 1fr 32rem;
     
 }
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
-    text-align: center;
-}
-
-h1 {
-    text-align: left;
-}
-
-h2 {
-    text-align: left;
-}

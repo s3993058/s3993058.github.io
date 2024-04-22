@@ -1,9 +1,13 @@
-.container {
-    display: grid;
-    grid-template-columns: 32rem 1fr 32rem;
-    
+body {
+    font-family:sans-serif;
+    text-align:center;
 }
 
+h1 {
+    text-align:left;
+}
 
-
+h2{
+    text-align:left;
+}
 

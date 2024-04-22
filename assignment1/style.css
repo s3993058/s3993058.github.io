@@ -1,15 +1,10 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5;
-    text-align: center;
-    padding-right: 150px;
-    padding-left: 150px;
+.container {
+    display: grid;
+    grid-template-columns: 16rem 1fr 16rem;
+
 }
 
-h1 {
-    text-align: left;
-}
 
-h2 {
-    text-align: left;
-}
+
+
+

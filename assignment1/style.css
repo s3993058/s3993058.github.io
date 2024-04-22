@@ -1,19 +1,15 @@
 .container{
     display: grid;
-    grid-template-columns: 16rem 1fr 16rem;
+    grid-template-columns: 32rem 1fr 32rem;
     grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header header"
+        "left main right"
+        "footer footer footer";
+    min-height: 100vh;
+    
 }
 
-body {
-    font-family:sans-serif;
-    text-align:center;
+.text{
+    grid-area: main;
 }
-
-h1 {
-    text-align:left;
-}
-
-h2{
-    text-align:left;
-}
-

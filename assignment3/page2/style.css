@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+}
+
+.parent {
+    background-color: #ff0000;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    max-width: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-style: normal;
+    color: #000000;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+}
+
+.child:first-child {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-style: normal;
+    color: #000000;
+    font-size: 2rem;
+    padding: 1px;
+}
+
+.child:nth-child(2) {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-style: normal;
+    color: #000000;
+    font-size: 0.8rem;
+    padding: 1px;
+}
+
+.child:nth-child(3) {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-style: normal;
+    color: #000000;
+    font-size: 0.8rem;
+    padding: 1px;
+}
+
+.child:last-child {
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-style: normal;
+    color: #000000;
+    font-size: 0.8rem;
+    padding: 1px;
+}

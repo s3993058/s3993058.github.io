@@ -148,8 +148,9 @@ h1{
 }
 
 .photos-2:hover {
-    background-color: #d65446;
-    border-color: #d65446;
+    background-color: #c3c6c8;
+    border-width: 1px;
+    border-width: 1px;
     width: 100%;
     height: 19.5%;
     display: flex;
@@ -159,6 +160,37 @@ h1{
     padding-right: 41.4%;
     padding-left: 41.4%;
     transition: 250ms ease-in-out;
+    margin-top: 1rem;
+}
+
+.photos-3 {
+    background-color: #c3c6c8;
+    width: 19.5%;
+    height: 19.5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+    margin-top: 1rem;
+    transition: 250ms ease-in-out;
+}
+
+.photos-3:hover {
+    background-color:#4693d6;
+    border-width: 1px;
+    border-width: 1px;
+    width: 100%;
+    height: 19.5%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    padding-right: 41.4%;
+    padding-left: 41.4%;
+    transition: 250ms ease-in-out;
+    margin-top: 1rem;
 }
 
 .autoBlur {

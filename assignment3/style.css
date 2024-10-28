@@ -44,6 +44,26 @@ body {
     position: relative;
 }
 
+.next-page:hover{
+    display: flex;
+    border-right-style: dashed;
+    border-width:1px;
+    border-color: #d65446;
+    color: #d65446;
+    flex-direction: row;
+    align-items: center;
+    height: max-content;
+    margin-right: 2rem;
+    width: 324%;
+    justify-content:right;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-optical-sizing: auto;
+    letter-spacing: 30px;
+    font-weight: 700;
+    position: relative;
+}
+
 h1 {
     background-color: #c3c6c8;
     border-right-style: dashed;

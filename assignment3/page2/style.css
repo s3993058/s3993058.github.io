@@ -65,7 +65,7 @@ body {
     padding: 1px;
 }
 
-.photo-1{
+.photo-1 {
     background-color: #c3c6c8;
     width: 19.5%;
     height: 19.5%;
@@ -74,6 +74,7 @@ body {
     margin: auto;
     padding: 1rem;
     transition: 250ms ease-in-out 100ms;
+    margin-bottom: 40rem;
 }
 
 .photo-1:hover {
@@ -88,4 +89,16 @@ body {
     padding-right: 41.4%;
     padding-left: 41.4%;
     transition: 250ms ease-in-out;
+    margin-bottom: 40rem;
+}
+
+.photo-2 {
+    background-color: #c3c6c8;
+    width: 19.5%;
+    height: 19.5%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    gap: 10rem;
 }

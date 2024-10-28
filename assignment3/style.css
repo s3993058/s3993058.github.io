@@ -24,7 +24,7 @@ body {
     font-size: 1.1rem;
 }
 
-h4{
+.next-page{
     display: flex;
     border-right-style: dashed;
     border-width:1px;
@@ -41,7 +41,7 @@ h4{
     font-optical-sizing: auto;
     letter-spacing: 30px;
     font-weight: 700;
-
+    position: relative;
 }
 
 h1 {

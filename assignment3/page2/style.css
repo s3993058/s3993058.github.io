@@ -63,3 +63,11 @@ body {
     font-size: 0.8rem;
     padding: 1px;
 }
+
+.photo-1{
+    width: 19.5%;
+    height: 30%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}

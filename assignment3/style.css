@@ -43,7 +43,7 @@ body {
     letter-spacing: 30px;
     font-weight: 700;
     position: relative;
-    transition: 250ms ease;
+    transition: 250ms ease-in-out 100ms;
 }
 
 .next-page:hover{

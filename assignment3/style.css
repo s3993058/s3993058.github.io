@@ -42,6 +42,7 @@ body {
     letter-spacing: 30px;
     font-weight: 700;
     position: relative;
+    transition: 250ms ease;
 }
 
 .next-page:hover{
@@ -108,7 +109,7 @@ h1 {
     letter-spacing: 80px;
     font-weight: 400;
     font-style: normal;
-    color: #3028c4;
+    color: #d65446;
     font-size: 35rem;
 }
 

@@ -92,6 +92,20 @@ body {
     margin-bottom: 40rem;
 }
 
+h1{
+    display: flex;
+    justify-content: left;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    max-width: 50rem;
+    padding-left: 1rem;
+    letter-spacing: 2px;
+}
+
 .photo-2 {
     background-color: #c3c6c8;
     width: 19.5%;
@@ -100,5 +114,42 @@ body {
     text-align: center;
     margin: auto;
     padding: 1rem;
-    gap: 10rem;
+    gap: 1rem;
+    transition: 250ms ease-in-out;
+}
+
+.photo-2:hover {
+    background-color: #d65446;
+    border-color: #d65446;
+    height: 19.5%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    transition: 250ms ease-in-out;
+}
+
+.photo-3 {
+    background-color: #c3c6c8;
+    width: 19.5%;
+    height: 19.5%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+    transition: 250ms ease-in-out;
+}
+
+.photo-3:hover {
+    background-color: #d65446;
+    border-color: #d65446;
+    height: 19.5%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    transition: 250ms ease-in-out;
 }

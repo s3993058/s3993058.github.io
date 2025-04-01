@@ -1,62 +1,140 @@
 .item1 {
-    background-color: red;
     display:flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: end;
+    align-items: right;
+    margin-left: 15rem;
+    margin-right: 20rem;
+    width: fit-content;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: auto;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .item2 {
-    background-color: blue;
     display:flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: end;
+    align-items: right;
+    margin-left: 40rem;
+    margin-right: 20rem;
+    width: fit-content;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: auto;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .item3 {
-    background-color: green;
     display:flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: end;
+    align-items: right;
+    margin-left: 30rem;
+    margin-right: 10rem;
+    width: fit-content;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: auto;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .item4 {
-    background-color: yellow;
     display:flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: end;
+    align-items: right;
+    margin-left: 15rem;
+    margin-right: 45rem;
+    width: fit-content;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: auto;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .item5 {
-    background-color: purple;
     display:flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: end;
+    align-items: right;
+    margin-left: 30rem;
+    margin-right: 20rem;
+    width: fit-content;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: auto;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .item6 {
-    background-color: orange;
     display:flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: end;
+    align-items: right;
+    margin-left: 35rem;
+    margin-right: 15rem;
+    width: fit-content;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: auto;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .item7 {
-    background-color: cyan;
     display:flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: end;
+    align-items: right;
+    margin-left: 40rem;
+    width: fit-content;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: auto;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .item8 {
-    background-color: seashell;
     display:flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: end;
+    align-items: right;
+    margin-left: 50rem;
+    width: fit-content;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: auto;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .item9 {
-    background-color: red;
     display:flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: end;
+    align-items: right;
+    margin-left: 35rem;
+    width: fit-content;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    letter-spacing: auto;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
 }

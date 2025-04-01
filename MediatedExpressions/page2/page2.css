@@ -1,5 +1,5 @@
 .container{
-    width: 95%;
+    width: 100%;
 }
 
 .item1 {
@@ -37,7 +37,7 @@
 
 .item2 {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: end;
     align-items: right;
     margin-left: 40rem;
@@ -49,6 +49,7 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 400;
+    list-style-type: none;
 }
 
 .question2 {
@@ -71,7 +72,7 @@
 
 .item3 {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: end;
     align-items: right;
     margin-left: 30rem;
@@ -83,6 +84,7 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 400;
+    list-style-type: none;
 }
 
 .question3 {
@@ -173,7 +175,7 @@
 
 .item6 {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: end;
     align-items: right;
     margin-left: 35rem;
@@ -185,6 +187,7 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 400;
+    list-style-type: none;
 }
 
 .question6 {

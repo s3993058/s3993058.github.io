@@ -146,3 +146,42 @@ body {
     transition: 250ms ease-in-out;
     margin-top: 1rem;
 }
+
+.next-page{
+    display: flex;
+    color: black;
+    flex-direction: row;
+    align-items: center;
+    height: max-content;
+    margin-bottom: 2rem;
+    width: 97%;
+    justify-content:right;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-optical-sizing: auto;
+    letter-spacing: 1px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    transition: 250ms ease-in-out;
+    text-decoration: none;
+}
+
+.next-page:hover{
+    display: flex;
+    color: #009d0d;;
+    flex-direction: row;
+    align-items: center;
+    height: max-content;
+    margin-bottom: 2rem;
+    width: 97%;
+    justify-content:right;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-optical-sizing: auto;
+    letter-spacing: 1px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 0;
+    transition: 100ms ease-in-out;
+}

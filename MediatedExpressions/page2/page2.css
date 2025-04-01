@@ -1,0 +1,62 @@
+.item1 {
+    background-color: red;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.item2 {
+    background-color: blue;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.item3 {
+    background-color: green;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.item4 {
+    background-color: yellow;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.item5 {
+    background-color: purple;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.item6 {
+    background-color: orange;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.item7 {
+    background-color: cyan;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.item8 {
+    background-color: seashell;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.item9 {
+    background-color: red;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+}

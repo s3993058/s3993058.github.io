@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment 3</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Space+Grotesk&display=swap"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <script src="script.js" defer></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Generative Art Tool</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div id="controls">
+    <input type="file" id="imageUpload" accept="image/*"/>
+    <button onclick="generateArt()">Generate</button>
+    <button onclick="saveArt()">Save Image</button>
 
-  <body>
+    <label>
+      Grayscale
+      <input type="checkbox" id="grayscale" />
+    </label>
+    <label>
+      Invert
+      <input type="checkbox" id="invert" />
+    </label>
+    <label>
+      Contrast
+      <input type="range" id="contrast" min="0" max="200" value="100"/>
+    </label>
+  </div>
 
-    <body>
-        <div id="grid-container">
-          <div id="box1"></div>
-          <div id="box2"></div>
-          <div id="box3"></div>
-          <div id="box4"></div>
-          <div id="box5"></div>
-          <div id="box6"></div>
-          <div id="box7"></div>
-        </div>
-      </body>
+  <canvas id="artCanvas"></canvas>
 
-  </body>
+  <script src="script.js"></script>
+</body>
+</html>

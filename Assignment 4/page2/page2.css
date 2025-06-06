@@ -5,7 +5,7 @@
 .heading {
     display: flex;
     flex-direction: row;
-    margin-left: 15rem;
+    margin-left: 10rem;
     margin-top: 3rem;
     font-family: sans-serif;
     font-optical-sizing: auto;
@@ -13,17 +13,18 @@
     font-style: normal;
     font-size: 2.3rem;
     font-weight: lighter;
-    color: #009d0d;
+    color: #dd0000;
 
 }
 
 .item1 {
     display:flex;
     flex-direction: row;
+    text-align: justify;
     justify-content: end;
     align-items: right;
-    margin-left: 15rem;
-    margin-right: 20rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     width: fit-content;
     font-family: sans-serif;
     font-optical-sizing: auto;
@@ -38,8 +39,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 15rem;
-    margin-right: 20rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     margin-top: 2rem;
     width: fit-content;
     font-family: sans-serif;
@@ -56,8 +57,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 15rem;
-    margin-right: 20rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     margin-top: 2rem;
     width: fit-content;
     font-family: sans-serif;
@@ -66,17 +67,18 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 700;
-    color: #009d0d;
+    color: #dd0000;
     transition: 100ms ease-in-out 100ms;
 }
 
 .item2 {
     display:flex;
     flex-direction: column;
+    text-align: justify;
     justify-content: end;
     align-items: right;
-    margin-left: 40rem;
-    margin-right: 20rem;
+    margin-left: 51%;
+    margin-right: 10rem;
     width: fit-content;
     font-family: sans-serif;
     font-optical-sizing: auto;
@@ -92,8 +94,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 40rem;
-    margin-right: 20rem;
+    margin-left: 51%;
+    margin-right: 10rem;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -111,8 +113,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 40rem;
-    margin-right: 20rem;
+    margin-left: 51%;
+    margin-right: 10rem;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -121,7 +123,7 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 700;
-    color: #009d0d;
+    color: #dd0000;
     transition: 100ms ease-in-out 100ms;
 }
 
@@ -129,10 +131,11 @@
 .item3 {
     display:flex;
     flex-direction: column;
+    text-align: justify;
     justify-content: end;
     align-items: right;
-    margin-left: 30rem;
-    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     width: fit-content;
     font-family: sans-serif;
     font-optical-sizing: auto;
@@ -148,8 +151,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 30rem;
-    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -165,8 +168,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 30rem;
-    margin-right: 10rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -175,17 +178,18 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 700;
-    color: #009d0d;
+    color: #dd0000;
     transition: 100ms ease-in-out 100ms;
 }
 
 .item4 {
     display:flex;
     flex-direction: row;
+    text-align: justify;
     justify-content: end;
     align-items: right;
-    margin-left: 15rem;
-    margin-right: 45rem;
+    margin-left: 51%;
+    margin-right: 10rem;
     width: fit-content;
     font-family: sans-serif;
     font-optical-sizing: auto;
@@ -200,8 +204,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 15rem;
-    margin-right: 45rem;
+    margin-left: 51%;
+    margin-right: 10rem;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -217,8 +221,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 15rem;
-    margin-right: 45rem;
+    margin-left: 51%;
+    margin-right: 10rem;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -227,17 +231,18 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 700;
-    color: #009d0d;
+    color: #dd0000;
     transition: 100ms ease-in-out 100ms;
 }
 
 .item5 {
     display:flex;
     flex-direction: row;
+    text-align: justify;
     justify-content: end;
     align-items: right;
-    margin-left: 30rem;
-    margin-right: 20rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     width: fit-content;
     font-family: sans-serif;
     font-optical-sizing: auto;
@@ -252,8 +257,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 30rem;
-    margin-right: 20rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -269,8 +274,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 30rem;
-    margin-right: 20rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -279,17 +284,18 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 700;
-    color: #009d0d;
+    color: #dd0000;
     transition: 100ms ease-in-out 100ms;
 }
 
 .item6 {
     display:flex;
     flex-direction: column;
+    text-align: justify;
     justify-content: end;
     align-items: right;
-    margin-left: 35rem;
-    margin-right: 15rem;
+    margin-left: 51%;
+    margin-right: 10rem;
     width: fit-content;
     font-family: sans-serif;
     font-optical-sizing: auto;
@@ -305,8 +311,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 35rem;
-    margin-right: 15rem;
+    margin-left: 51%;
+    margin-right: 10rem;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -322,8 +328,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 35rem;
-    margin-right: 15rem;
+    margin-left: 51%;
+    margin-right: 10rem;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -332,16 +338,19 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 700;
-    color: #009d0d;
+    color: #dd0000;
     transition: 100ms ease-in-out 100ms;
 }
 
 .item7 {
     display:flex;
     flex-direction: row;
+    text-align: justify;
     justify-content: end;
     align-items: right;
-    margin-left: 40rem;
+    margin-left: 10rem;
+    margin-right: 51%;
+    margin-bottom: 3rem;
     width: fit-content;
     font-family: sans-serif;
     font-optical-sizing: auto;
@@ -356,7 +365,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 40rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -372,7 +382,8 @@
     flex-direction: row;
     justify-content: end;
     align-items: right;
-    margin-left: 40rem;
+    margin-left: 10rem;
+    margin-right: 51%;
     margin-top: 1rem;
     width: fit-content;
     font-family: sans-serif;
@@ -381,106 +392,7 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 700;
-    color: #009d0d;
-    transition: 100ms ease-in-out 100ms;
-}
-
-.item8 {
-    display:flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: right;
-    margin-left: 50rem;
-    width: fit-content;
-    font-family: sans-serif;
-    font-optical-sizing: auto;
-    letter-spacing: auto;
-    font-style: normal;
-    font-size: 1rem;
-    font-weight: 300;
-}
-
-.question8 {
-    display:flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: right;
-    margin-left: 50rem;
-    margin-top: 1rem;
-    width: fit-content;
-    font-family: sans-serif;
-    font-optical-sizing: auto;
-    letter-spacing: auto;
-    font-style: normal;
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-.question8:hover {
-    display:flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: right;
-    margin-left: 50rem;
-    margin-top: 1rem;
-    width: fit-content;
-    font-family: sans-serif;
-    font-optical-sizing: auto;
-    letter-spacing: auto;
-    font-style: normal;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #009d0d;
-    transition: 100ms ease-in-out 100ms;
-}
-
-
-.item9 {
-    display:flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: right;
-    margin-left: 35rem;
-    width: fit-content;
-    font-family: sans-serif;
-    font-optical-sizing: auto;
-    letter-spacing: auto;
-    font-style: normal;
-    font-size: 1rem;
-    font-weight: 300;
-}
-
-.question9 {
-    display:flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: right;
-    margin-left: 35rem;
-    margin-top: 1rem;
-    width: fit-content;
-    font-family: sans-serif;
-    font-optical-sizing: auto;
-    letter-spacing: auto;
-    font-style: normal;
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-.question9:hover {
-    display:flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: right;
-    margin-left: 35rem;
-    margin-top: 1rem;
-    width: fit-content;
-    font-family: sans-serif;
-    font-optical-sizing: auto;
-    letter-spacing: auto;
-    font-style: normal;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #009d0d;
+    color: #dd0000;
     transition: 100ms ease-in-out 100ms;
 }
 
@@ -506,7 +418,7 @@
 
 .next-page:hover{
     display: flex;
-    color: #009d0d;;
+    color: #dd0000;
     flex-direction: row;
     align-items: center;
     height: max-content;

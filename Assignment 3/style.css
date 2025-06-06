@@ -21,3 +21,9 @@ canvas {
   cursor: grab;
   background: #fff;
 }
+
+.generate {
+ background: red;
+ padding: 5rem;
+
+}

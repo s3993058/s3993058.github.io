@@ -9,12 +9,17 @@
 <body>
   <div id="controls">
     <input type="file" id="imageUpload" accept="image/*"/>
+    <div id="generate"
     <button onclick="generateArt()">Generate</button>
+  </div>
     <button onclick="saveArt()">Save Image</button>
 
     <label>
       Grayscale
       <input type="checkbox" id="grayscale" />
+      <filter id="grayscale">
+
+      </filter>
     </label>
     <label>
       Invert

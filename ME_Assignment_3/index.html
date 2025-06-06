@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Generative Art Tool</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div id="controls">
+    <input type="file" id="imageUpload" accept="image/*"/>
+    <button onclick="generateArt()">Generate</button>
+    <button onclick="saveArt()">Save Image</button>
+
+    <label>
+      Grayscale
+      <input type="checkbox" id="grayscale" />
+    </label>
+    <label>
+      Invert
+      <input type="checkbox" id="invert" />
+    </label>
+    <label>
+      Contrast
+      <input type="range" id="contrast" min="0" max="200" value="100"/>
+    </label>
+  </div>
+
+  <canvas id="artCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
